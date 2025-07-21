@@ -1,0 +1,41 @@
+title: "Pandora Documentation"
+description: "Manual completo da Pandora (OpenWebUI) para equipe Cappuccino"
+theme: minima
+baseurl: ""
+url: "https://mcampello.github.io/pandora-documentation"
+
+# Configurações do tema
+header_pages:
+  - README.md
+  - 01-primeiros-passos.md
+  - 02-interface-basica.md
+  - 03-agentes-disponiveis.md
+  - 04-casos-de-uso.md
+  - 05-faq.md
+
+# SEO e metadados
+author:
+  name: "Mario Campello"
+  email: "mario@codenuts.cc"
+
+social:
+  name: "Pandora Documentation"
+  links:
+    - https://github.com/mcampello/pandora-documentation
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configurações de navegação
+show_excerpts: true
+paginate: 5
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
