@@ -1,11 +1,49 @@
+---
+layout: default
+title: "🤖 Agentes Disponíveis"
+description: "Conheça todos os agentes da Pandora e suas especialidades"
+---
+
 # 🤖 Agentes Disponíveis na Pandora
 
 ## 📊 Visão Geral dos Agentes
 
 | Agente | Status | Especialidade | Casos de Uso |
 |--------|--------|---------------|--------------|
+| 🏢 **Capp Agent** | ✅ **Padrão** | Agente principal da Cappuccino | Tom de voz, contexto da agência, comunicação geral |
 | 🎨 **CreativoIA** | ✅ Ativo | Brainstorming e Criatividade | Campanhas, naming, conceitos |
 | 📰 **JornalIA** | 🔄 Em testes | Jornalismo e PR | Press releases, matérias |
+
+---
+
+## 🏢 Capp Agent - Agente Principal da Cappuccino
+
+### 🎯 Especialidade
+Agente padrão que conhece profundamente a Cappuccino, seu tom de voz, processos e contexto geral da agência.
+
+### 💼 Principais Funções
+- **Tom de voz oficial**: Comunicação alinhada com a identidade da Cappuccino
+- **Contexto da agência**: Conhecimento dos processos internos e metodologias
+- **Comunicação geral**: Atendimento padrão e orientações gerais
+- **Alinhamento estratégico**: Respostas consistentes com os valores da empresa
+- **Onboarding**: Apresentação da empresa para novos colaboradores/clientes
+
+### 🚀 Como Usar
+```
+Exemplo: "Preciso de uma apresentação sobre nossos serviços para um cliente potencial do setor educação"
+
+O Capp Agent já conhece:
+- Metodologias da Cappuccino
+- Casos de sucesso relevantes  
+- Tom de comunicação apropriado
+- Estrutura de propostas padrão
+```
+
+### ⭐ Vantagens
+- **Sempre atualizado** com o contexto da agência
+- **Tom consistente** em todas as comunicações
+- **Conhecimento institucional** centralizado
+- **Primeira opção** para tarefas gerais
 
 ---
 

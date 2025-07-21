@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🎯 Casos de Uso Práticos"
+description: "Exemplos práticos e templates para usar os agentes da Pandora efetivamente"
+---
+
 # 🎯 Casos de Uso Práticos da Pandora
 
 ## 🎨 CreativoIA - Casos de Uso

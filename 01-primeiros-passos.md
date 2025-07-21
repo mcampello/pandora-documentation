@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🚀 Primeiros Passos"
+description: "Guia completo para acessar e configurar a Pandora pela primeira vez"
+---
+
 # 🚀 Primeiros Passos com a Pandora
 
 ## 🔐 Processo de Acesso

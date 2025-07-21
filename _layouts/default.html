@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "pt-BR" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <!-- Pandora Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/pandora_ico.svg' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/pandora_ico@3x.png' | relative_url }}">
+    
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    {% include head-custom.html %}
+  </head>
+  
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      {% if page.title %}
+        <h1 class="project-name">{{ page.title }}</h1>
+      {% else %}
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      {% endif %}
+      
+      {% if page.description %}
+        <h2 class="project-tagline">{{ page.description }}</h2>
+      {% else %}
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% endif %}
+      
+      <!-- Navigation for internal pages -->
+      {% unless page.title == site.title %}
+      <div style="margin-top: 2rem;">
+        <a href="{{ '/' | relative_url }}" class="btn" style="margin-right: 1rem;">🏠 Início</a>
+        <a href="{{ '/01-primeiros-passos.md' | relative_url }}" class="btn">🚀 Primeiros Passos</a>
+        <a href="{{ '/02-interface-basica.md' | relative_url }}" class="btn">💻 Interface</a>
+        <a href="{{ '/03-agentes-disponiveis.md' | relative_url }}" class="btn">🤖 Agentes</a>
+        <a href="{{ '/04-casos-de-uso.md' | relative_url }}" class="btn">🎯 Casos de Uso</a>
+        <a href="{{ '/05-faq.md' | relative_url }}" class="btn">❓ FAQ</a>
+      </div>
+      {% endunless %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <div style="text-align: center; margin-top: 2rem; padding: 2rem 0; border-top: 1px solid var(--border-color, #37352F);">
+          
+          <!-- Navigation Footer -->
+          <div style="margin-bottom: 2rem;">
+            <a href="{{ '/' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">🏠 Início</a>
+            <a href="{{ '/01-primeiros-passos.md' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">🚀 Primeiros Passos</a>
+            <a href="{{ '/02-interface-basica.md' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">💻 Interface</a>
+            <a href="{{ '/03-agentes-disponiveis.md' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">🤖 Agentes</a>
+            <a href="{{ '/04-casos-de-uso.md' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">🎯 Casos de Uso</a>
+            <a href="{{ '/05-faq.md' | relative_url }}" style="margin: 0 1rem; color: var(--pandora-purple-light, #9B4DD9);">❓ FAQ</a>
+          </div>
+          
+          <!-- Footer Info -->
+          <div style="color: var(--text-muted, #6F6E69); font-size: 14px;">
+            <p><strong>🤖 Pandora</strong> - Plataforma de IA da Cappuccino</p>
+            <p>📞 <strong>Suporte</strong>: Mário Campello via Teams | 📅 <strong>Atualizado</strong>: Julho 2024</p>
+            <p style="margin-top: 1rem;">
+              <a href="https://github.com/mcampello/pandora-documentation" style="color: var(--pandora-purple-light, #9B4DD9);">📖 GitHub</a> | 
+              <a href="https://mcampello.github.io/pandora-documentation" style="color: var(--pandora-purple-light, #9B4DD9);">🌐 Documentação</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html> 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "💻 Interface Básica"
+description: "Como navegar e usar a interface da Pandora efetivamente"
+---
+
 # 💻 Guia de Interface da Pandora
 
 ## 🖥️ Layout Principal

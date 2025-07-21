@@ -61,17 +61,51 @@ A Pandora é uma plataforma de inteligência artificial personalizada para a Cap
 
 ## 🤖 Agentes Ativos
 
-| Agente | Status | Função Principal |
-|--------|--------|------------------|
-| 🎨 **CreativoIA** | ✅ Ativo | Brainstorming e processo criativo |
-| 📰 **JornalIA** | 🔄 Em testes | Matérias jornalísticas e PR |
-
-## 📱 Suporte
-
-- **Dúvidas técnicas**: Equipe de TI
-- **Sugestões de agentes**: Gestão Cappuccino  
-- **Problemas de acesso**: Administrador da plataforma
+| Agente | Status | Função Principal | Especialidade |
+|--------|--------|------------------|---------------|
+| 🏢 **Capp Agent** | ✅ **Padrão** | Agente principal da Cappuccino | Tom de voz da agência, contexto geral |
+| 🎨 **CreativoIA** | ✅ Ativo | Brainstorming e processo criativo | Campanhas, conceitos, ideação |
+| 📰 **JornalIA** | 🔄 Em testes | Matérias jornalísticas e PR | Press releases, artigos, comunicação |
 
 ---
 
-**Versão**: 1.0 | **Atualização**: Janeiro 2024 
+## 📊 Acompanhamento de Desenvolvimento
+
+### 🚀 **Tarefas em Andamento**
+
+#### [CAM-18] Cappuccino - Pandora: Apresentação, Tutorial e Documentação
+- **Status**: 🔄 Em desenvolvimento  
+- **Progresso**: Documentação completa ✅ | Apresentação 🔄 | Tutorial 📋
+- **Próximos passos**: Finalizar apresentação e tutorial interativo
+
+### ✅ **Tarefas Concluídas**
+
+#### [CAM-19] Documentação Pandora - Manual Básico de Uso
+- **Status**: ✅ **Finalizada com Design Premium**
+- **Entregue**: Manual completo com design estilo Notion
+- **URL**: [pandora-documentation](https://mcampello.github.io/pandora-documentation)
+- **Melhorias**: Design moderno, typography Inter, layout responsivo
+
+### 📈 **Resumo do Progresso**
+
+| Item | Status | Data Conclusão |
+|------|--------|----------------|
+| 📖 Manual de Uso | ✅ Concluído | 21/07/2024 |
+| 🎨 Design Premium | ✅ Concluído | 21/07/2024 |
+| 🖼️ Apresentação | 🔄 Em andamento | Est. 25/07/2024 |
+| 🎯 Tutorial Interativo | 📋 Planejado | Est. 28/07/2024 |
+
+*Última atualização: 21 de Julho de 2024*
+
+---
+
+## 📱 Suporte
+
+- **🔧 Dúvidas técnicas**: Mário Campello via Teams
+- **💡 Sugestões de agentes**: Mário Campello via Teams  
+- **🔐 Problemas de acesso**: Mário Campello via Teams
+- **📖 Documentação**: Este manual ou GitHub
+
+---
+
+**Versão**: 1.0 | **Atualização**: Julho 2024 

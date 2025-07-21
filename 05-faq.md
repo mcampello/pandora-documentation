@@ -1,3 +1,9 @@
+---
+layout: default
+title: "❓ FAQ"
+description: "Perguntas frequentes e soluções para problemas comuns da Pandora"
+---
+
 # ❓ FAQ - Perguntas Frequentes
 
 ## 🔐 Acesso e Login
@@ -159,10 +165,11 @@
 
 ## 🆘 Suporte
 
-**Problemas técnicos**: Equipe de TI da Cappuccino
-**Dúvidas de uso**: Documentação ou colegas que já usam
-**Sugestões de agentes**: Gestão Cappuccino
-**Feedback sobre resultados**: Luiz Zanotti
+**🔧 Problemas técnicos**: Mário Campello via Teams
+**💡 Dúvidas de uso**: Mário Campello via Teams ou esta documentação
+**🤖 Sugestões de agentes**: Mário Campello via Teams
+**📝 Feedback sobre resultados**: Mário Campello via Teams
+**📖 Documentação**: GitHub ou site oficial
 
 ---
 
