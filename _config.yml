@@ -1,0 +1,5 @@
+title: "Pandora - Manual de Uso"
+description: "Manual completo da Pandora (OpenWebUI) para equipe Cappuccino"
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
